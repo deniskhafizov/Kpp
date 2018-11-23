@@ -85,36 +85,24 @@ div.content {
 
 .right-image1 {
     background-image: url("../images/right-image1.png");
-    background-repeat: no-repeat;
-    position: relative;
-    top: 60px;
-    left: 975px;
-    height: 233px;
-    z-index: 22;
-}
-
-.right-image2 {
-    background-image: url("../images/right-image2.png");
-    background-repeat: no-repeat;
-    top: 30px;
+    width: 269px;
+    height: 183px;
     left: 975px;
     position: relative;
-    height: 233px;
-    z-index: 22;
 }
 
-.right-image1__item__text {
-    font-size: 10px;
-    max-width: 150px;
+.right-image1__item__text{
+    position: relative;
+
+
 }
 
 .right-image1__item {
-    padding-left: 15px;
-    padding-top: 1px;
-    max-width: 150px;
-    right: 975px;
-    float: right;
+    padding-top: 45px;
+    padding-left: 975px;
 }
+
+
 
 .Прямоугольник__скругл__углы_2 {
     border-radius: 10px;
@@ -127,6 +115,17 @@ div.content {
     z-index: 26;
 }
 
+
+
+.iunD6r8ZxtU_копия {
+    background-image: url("iunD6r8ZxtU копия.png");
+    position: absolute;
+    left: 894px;
+    top: 330px;
+    width: 352px;
+    height: 233px;
+    z-index: 24;
+}
 
 
 
