@@ -9,8 +9,8 @@ body {
 
 div.content { width: 1264px; min-height: 2617px;
     margin: 0 auto;
-    /*box-shadow: 0 0 15px #858585;
-    background-color: rgb(254, 248, 233);*/
+    box-shadow: 0 0 15px #858585;
+    background-color: rgb(254, 248, 233);
 }
 
 header {
@@ -37,7 +37,7 @@ header {
 
 .menu {
     line-height: 1.2;
-    padding: 2rem 0.5rem 0.5rem 1.25rem;
+    padding: 2rem 4.5rem 1.25rem 4.5rem;
 }
 
 .menu__item {
