@@ -7,48 +7,55 @@ body {
     margin-top: 0px;
 }
 
-div.content { max-width: 1264px; min-height: 2617px;
+div.content { width: 1264px; min-height: 2617px;
     margin: 0 auto;
-    box-shadow: 0 0 15px #858585;
-    background-color: rgb(254, 248, 233);
+    /*box-shadow: 0 0 15px #858585;
+    background-color: rgb(254, 248, 233);*/
 }
 
-.logo { position: relative; left: 40px; top: 19px;
-    width: 225px; height: 55px;
+header {
+    min-width: 700px;
 }
+
+.logo { margin-left: 40px; padding-top: 20px;
+    max-width: 225px; max-height: 55px;
+    min-width: 225px;
+}
+
 
 
 .vk {
-    position: relative; left: 31px; top: -20px; height: 32px;
+    position: relative; top: -45px; height: 32px;
     margin: 0px 10px 0px 10px;
 }
 
 .logo__vk {
-    padding-top: 0px;
-    width: 225px; height: 29px;
+    width: 195px; height: 8px;
     float: right;
 }
 
-.clear {
-    clear: both;
-}
 
 .menu {
     line-height: 1.2;
-    position: relative;
-    left: 20px; top: 30px;
+    padding: 1.25rem 0.5rem 0.5rem 1.25rem;
+
 }
 
 .menu__item {
-    margin: 0px 17px 0px 17px;
-    text-decoration: none;
+    padding: 0.5rem 1.0625rem 0.5rem 1.0625rem;
+    text-decoration: underline;
+    font-weight: 600;
     color: rgb(51, 112, 153);
+}
+
+.main {
+    padding: 30px 5px 30px 20px;
+    float: left;
 }
 
 .main-image {
     background-image: url("../images/main-image.png"); background-repeat: no-repeat;
-    position: relative; left: 20px; top: 60px; width: 982px; height: 718px;
-    float: left;
+    width: 943px; height: 387px;
 }
 
 .main-image__item__text {
@@ -59,53 +66,166 @@ div.content { max-width: 1264px; min-height: 2617px;
 }
 
 .main-image__item__text1 {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
+    font-weight: 600;
+    padding:  20px 30px 0px 40px;
+    margin: 0px;
 }
 
 .main-image__item__text2 {
-    font-size: 1.5rem; color: rgb(51, 112, 153);
+    font-size: 1.1rem; color: rgb(51, 112, 153);
+    padding: 0px 30px 20px 40px;
+    margin: 0px;
+    text-decoration: underline;
 }
 
 .main-image__item {
     padding-top: 190px;
 }
 
-.right-image1 {
-    position: relative;
+.image {
+    padding-top: 30px; padding-right: 20px;
 }
 
 .right-image1__item {
-    background-image: url("../images/right-image1.png");
-    position: relative; top: 60px; right: 20px; width: 269px; height: 183px;
+    width: 269px; height: 183px;
+    background-image: url("../images/right-image1.png"); background-repeat: no-repeat;
     float: right;
+    padding-bottom: 20px;
 }
 
 .right-image1__item__text {
     padding: 5px 0px 0px 25px;
     color: rgb(51, 112, 153);
+    text-decoration: underline;
 }
 
 .right-image2__item {
-    background-image: url("../images/right-image2.png");
-    position: relative; top: 80px; right: 20px; width: 269px; height: 183px;
+    background-image: url("../images/right-image2.png");     background-repeat: no-repeat;
+     width: 269px; height: 183px;
     float: right;
 }
 
 .right-image2__item__text {
     padding: 5px 0px 0px 25px;
     color: rgb(51, 112, 153);
+    text-decoration: underline;
+}
+
+.clear {
+    clear: both;
 }
 
 h1 {
     font-size: 42px; font-family: "Panton"; font-weight: 400; color: rgb(51, 112, 153); line-height: 1.2;
     text-decoration: none;
     text-align: center;
-    position: relative;
     bottom: 200px;
 }
 
 
+.publication, .publication-2, .publication-3, .publication-4, .publication-5 {
+    width: 240px;
+    height: 330px;
+    padding: 20px;
+    text-align: center;
+}
 
+.publication-inline {
+    display: flex;
+}
+
+.about {
+    padding: 0px 20px 0px 20px;
+    display: flex;
+}
+
+.about div h1 {
+    font-weight: 600;
+    color: #000;
+}
+
+.text-about {
+    padding: 0px 0px 10px 30px;
+    font-size: 15px;
+}
+
+.text-about__headline {
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+.lessons {
+    display: flex;
+    padding: 140px  20px 10px 0px;
+}
+
+.lessons div h1 {
+    color: #000;
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+.lessons__yoga__text {
+    width: 448px;
+}
+
+.lessons div h2 {
+    font-weight: normal;
+    font-weight: 600;
+}
+
+.lessons__yoga__menu {
+    width: 430px;
+    padding-right: ;
+}
+
+.lessons__yoga__menu ul {
+    padding-left: 39px;
+}
+
+.lessons__yoga__menu ul li {
+    list-style: none;
+    width: 237px;
+    height: 43px;
+    padding: 10px 30px 10px 10px;
+    background-image: url("../images/yoga__image__menu.png");
+    border-bottom: 3px solid gray;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.footer__logo {
+    padding: 65px 20px 10px 40px;
+}
+
+.footer__vk {
+    padding: 0px 20px 10px 100px;
+}
+
+.footer__vk img {
+    padding: 0px 15px 0px 15px;
+}
+
+.footer__kpp {
+    padding-left: 113px;
+}
+
+.foot {
+    display: flex;
+}
+.footer-menu_1, .footer-menu_2, .footer-menu_3 {
+    list-style: none;
+    padding: 60px 30px 0px 30px;
+    font-size: 18px;
+    line-height: 2.5;
+}
+
+.footer-menu_ul {
+    list-style: none;
+}
 
 
 
