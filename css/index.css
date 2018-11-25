@@ -10,8 +10,8 @@ body {
 
 div.content { width: 1264px; min-height: 2617px;
     margin: 0 auto;
-    box-shadow: 0 0 15px #858585;
-    background-color: rgb(254, 248, 233);
+    /*box-shadow: 0 0 15px #858585;
+    background-color: rgb(254, 248, 233);*/
 }
 
 header {
