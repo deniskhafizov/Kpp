@@ -4,7 +4,8 @@ html {
 
 body {
     font-family: Panton; font-weight: 400; font-size: 1rem; line-height: 1.2;
-    margin-top: 0px;
+    margin: 0 auto;
+
 }
 
 div.content { width: 1264px; min-height: 2617px;
